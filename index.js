@@ -14,13 +14,13 @@ const facts = [
 ]
 
 function johnLennonFacts(facts) {
- var results = [];
- var count = 0;
+ var excitedFactsArray = [];
+ var i = 0;
  while (count < facts.length) {
-   results.push(facts[count] + "!!!");
-    count++;
+   excitedFactsArray.push(facts[i] + "!!!");
+    i++;
   }
-  return results;
+  return excitedFactsArray;
 }
 
 
